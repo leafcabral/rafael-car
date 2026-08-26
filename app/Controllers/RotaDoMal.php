@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class Balls extends BaseController
+class RodaDoMal extends BaseController
 {
     public function index(): string
     {
-        return view('good_ball');
+        return view('maldade');
     }
 }
